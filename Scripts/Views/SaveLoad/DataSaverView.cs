@@ -65,7 +65,6 @@ namespace MVP.Views
             int loadDataNum = Config.GetSelectDataSlotNum();
             string loadFilePath = null;
 
-            /* STEAM対応必須箇所 */
             // 読み込み処理
             #if UNITY_EDITOR
                 loadFilePath = Application.dataPath + "/Resources/SaveFiles/SaveData" + loadDataNum + ".ijuu";
@@ -78,8 +77,6 @@ namespace MVP.Views
             #endif
                 Debug.Log("ロードしたファイルパス"+loadFilePath);
             SaveData loadData = DataLoad(loadFilePath);
-
-            /* STEAM対応必須箇所 */
 
             // データが存在する時
             if (loadData != null)

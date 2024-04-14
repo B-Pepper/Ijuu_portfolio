@@ -20,12 +20,6 @@ namespace MVP.Views
             _presenter = new MVP.Presenters.FirstKeyItemPresenter();
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-            
-        }
-
         /// <summary>
         /// クリック時のイベント処理
         /// </summary>

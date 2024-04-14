@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 namespace MVP.Views
 {
+    /// <summary>
+    /// アイテムボックスにて表示するマップの表示処理
+    /// </summary>
     public class ItemBoxMapView : MonoBehaviour
     {
         /// <summary>
@@ -19,6 +22,7 @@ namespace MVP.Views
         /// </summary>
         public void OnClick()
         {
+            // シーン番号によって、表示するマップを変更
             switch (Config.GetCurrentSceneNum())
             {
                 case 0:

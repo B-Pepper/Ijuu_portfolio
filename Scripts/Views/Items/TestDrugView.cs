@@ -39,9 +39,7 @@ namespace MVP.Views
             _presenter.SetItemStatus(_presenter.GetItemID(), ItemConstant.ITEM_GET);
             // アイテムの画像を非表示にする
             Debug.Log("itemImage => FALSE");
-            _itemImage.SetActive(false);
-            // アイテムボックスに表示する
-            
+            _itemImage.SetActive(false);    
         }
     }
 }

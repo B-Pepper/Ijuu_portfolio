@@ -34,8 +34,6 @@ namespace MVP.Views
             // アイテムの画像を非表示にする
             Debug.Log("itemImage => FALSE");
             _itemImage.SetActive(false);
-            // アイテムボックスに表示する
-            
         }
     }
 }
