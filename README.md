@@ -1,4 +1,6 @@
 # Ijuu_portfolio
+## 概要
+密室からの脱出を目指す、脱出ゲーム
 ## 環境
 - Windows10
 - Unity(2022.3.8f1)
